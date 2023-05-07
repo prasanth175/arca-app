@@ -1,0 +1,134 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    width: 100vw;
+    overflow-y: scroll;
+  }
+  
+  .mid-container {
+    box-shadow: 4px 8px 16px 0px #bfbfbf;
+    border-top: 50px solid rgb(89, 136, 143);
+    margin: 40px;
+    width: 100%;
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+  }
+  
+  .icon {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .sub-parent {
+    border: 1px solid rgb(152, 169, 173);
+    border-radius: 2px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 450;
+    color: rgb(89, 136, 143);
+    display: flex;
+    align-items: center;
+    border-left: 10px solid grey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .loader-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    border: 1px solid rgb(152, 169, 173);
+    border-radius: 2px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: rgb(89, 136, 143);
+    display: flex;
+    align-items: center;
+  }
+  
+  .parent {
+    border: 1px solid rgb(152, 169, 173);
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 450;
+    color: rgb(89, 136, 143);
+    border-left: 10px solid rgb(128, 158, 165);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+  }
+
+  .load-txt{
+    color: rgb(128, 158, 165);
+    font-family: 'Roboto';
+    font-style: italic;
+  }
+  
+
+@media (max-width: 780px){
+    .sub-parent{
+        font-size: 14px;
+    }
+
+    .child{
+        font-size: 14px;
+    }
+
+    .parent{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px){
+    .sub-parent{
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 20px;
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .child{
+        font-size: 10px;
+        padding: 10px;
+        margin-left: 40px;
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .parent{
+        font-size: 10px;
+        padding: 10px;
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mid-container{
+        padding: 10px;
+        width: 80%;
+    }
+
+    .icon{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
